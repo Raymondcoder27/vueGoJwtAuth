@@ -11,6 +11,7 @@ import { RouterLink } from "vue-router";
       <RouterLink to="/">
         <!-- <ApplicationLogo class="w-20 h-20 fill-current text-gray-500" /> -->
         <!-- <img src="/public/icons/FacebookLogo.png" class="w-[180px] mt-3" alt="" /> -->
+         <div class="font-bold text-xl">AUTH</div>
       </RouterLink>
     </div>
 

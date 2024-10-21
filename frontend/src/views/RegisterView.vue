@@ -105,7 +105,7 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <button type="button" class="w-full text-sm bg-green-900 text-white p-2 rounded-md"
+          <button type="button" class="w-full text-sm bg-green-900 text-white p-2 rounded-md font-semibold"
             @click="register"> 
             Register
           </button>
