@@ -1,0 +1,26 @@
+table {
+  @apply w-full my-2 text-sm text-gray-600 shadow rounded;
+}
+
+.header {
+  text-align: left;
+  @apply text-gray-600;
+}
+
+tr:hover {
+  @apply bg-gray-10;
+}
+
+td, th {
+  @apply cursor-pointer py-2 px-2;
+  font-size: 13px;
+}
+
+th {
+  @apply font-bold capitalize py-2 bg-gray-50;
+}
+
+td {
+  @apply border-b border-gray-50;
+}
+
