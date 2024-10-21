@@ -3,7 +3,7 @@ import MainNavLayout from "@/Layouts/MainNavLayout.vue";
 import CreatePostBox from "@/Layouts/CreatePostBox.vue";
 import Post from "@/components/Post.vue";
 // import PrimaryButton from "@/components/PrimaryButton.vue";
-import GuestLayout from "@/Layouts/GuestLayout.vue";
+import GuestLayout from "@/layouts/GuestLayout.vue";
 // import TextInput from "@/components/TextInput.vue";
 import api from "@/config/api";
 import { useAuthStore } from "@/stores/auth";
