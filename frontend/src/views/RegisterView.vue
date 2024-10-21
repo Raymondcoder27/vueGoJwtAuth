@@ -62,7 +62,7 @@ const register = async (): Promise<void> => {
   <Head title="Register" />
   <GuestLayout>
     <div
-      class="w-full max-h-[80vh] bg-white text-center justify-center items-center mb-5"
+      class="w-full max-h-[100vh] bg-white text-center justify-center items-center mb-5"
     >
       <form @submit.prevent="register" class="mb-5 text-black">
         <!-- <div>
@@ -105,8 +105,9 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <button type="button" class="w-full text-sm"
-            @click="register"> Register
+          <button type="button" class="w-full text-sm bg-green-900 text-white p-2"
+            @click="register"> 
+            Register
           </button>
         </div>
 
