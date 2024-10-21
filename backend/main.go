@@ -1,5 +1,12 @@
 package main
 
+import (
+	"example.com/vuegojwt/auth"
+	"example.com/vuegojwt/middleware"
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
+)
+
 // "example.com/facebookclone/auth"
 // "example.com/facebookclone/controllers"
 // "example.com/facebookclone/initializers"
