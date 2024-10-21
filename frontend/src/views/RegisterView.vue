@@ -2,15 +2,15 @@
 import MainNavLayout from "@/Layouts/MainNavLayout.vue";
 import CreatePostBox from "@/Layouts/CreatePostBox.vue";
 import Post from "@/components/Post.vue";
-import PrimaryButton from "@/components/PrimaryButton.vue";
-import GuestLayout from "@/Layouts/GuestLayout.vue";
-import TextInput from "@/components/TextInput.vue";
+// import PrimaryButton from "@/components/PrimaryButton.vue";
+// import GuestLayout from "@/Layouts/GuestLayout.vue";
+// import TextInput from "@/components/TextInput.vue";
 import api from "@/config/api";
 
 import Camera from "vue-material-design-icons/Camera.vue";
 import Pen from "vue-material-design-icons/Pen.vue";
 
-import { useGeneralStore } from "@/stores/general";
+// import { useGeneralStore } from "@/stores/general";
 import { storeToRefs } from "pinia";
 import router from "@/router";
 
@@ -107,9 +107,9 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <PrimaryButton class="w-full text-sm"
+          <button type="button" class="w-full text-sm"
             @click="register"> Register
-          </PrimaryButton>
+          </button>
         </div>
 
         <div class="flex items-center justify-center my-3">
