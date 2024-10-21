@@ -54,7 +54,7 @@ const submit = async (): Promise<void> => {
     await authStore.login(email.value, password.value);
 
     // On successful login, navigate to the home page
-    router.push("/home");
+    router.push("/dashboard");
   } catch (err) {
     // Set error message if login fails
     error.value = "Login failed. Please check your credentials.";
