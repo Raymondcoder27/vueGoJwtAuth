@@ -24,6 +24,6 @@ func MigrateDB() {
 
 	err := DB.AutoMigrate(&models.User{})
 	if err != nil {
-		log.Printf("Error migrating User Database: %v", err3)
+		log.Printf("Error migrating User Database: %v", err)
 	}
 }
