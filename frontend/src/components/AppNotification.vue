@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useNotificationsStore } from "@/stores/notifications";
+import { useNotificationsStore } from "@/stores/notification";
 import { cva } from "class-variance-authority"
 import { computed, ref, watch, type PropType, type Ref } from "vue"
 
