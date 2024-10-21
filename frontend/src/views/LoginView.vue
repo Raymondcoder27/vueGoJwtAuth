@@ -67,6 +67,9 @@ const submit = async (): Promise<void> => {
   <div v-if="error" class="text-red-500">{{ error }}</div>
 
   <!-- <GuestLayout> -->
+    <div
+    class="h-[100vh] flex flex-col items-center pt-[100px] sm:pt-0 bg-gray-100 z-40"
+  ></div>
     <div class="w-full max-h-[50vh] bg-white text-center justify-center items-center mb-5">
       <form @submit.prevent="submit" class="mb-5 text-black">
         <div>
@@ -118,5 +121,6 @@ const submit = async (): Promise<void> => {
         </div>
       </form>
     </div>
+</div>
   <!-- </GuestLayout> -->
 </template>
