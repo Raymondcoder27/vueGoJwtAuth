@@ -3,7 +3,7 @@ import MainNavLayout from "@/Layouts/MainNavLayout.vue";
 import CreatePostBox from "@/Layouts/CreatePostBox.vue";
 import Post from "@/components/Post.vue";
 // import PrimaryButton from "@/components/PrimaryButton.vue";
-// import GuestLayout from "@/Layouts/GuestLayout.vue";
+import GuestLayout from "@/Layouts/GuestLayout.vue";
 // import TextInput from "@/components/TextInput.vue";
 import api from "@/config/api";
 import { useAuthStore } from "@/stores/auth";
@@ -66,7 +66,7 @@ const submit = async (): Promise<void> => {
   <!-- <Head title="Log in" /> -->
   <div v-if="error" class="text-red-500">{{ error }}</div>
 
-  <!-- <GuestLayout> -->
+  <GuestLayout>
     <!-- <div
     class="h-[100vh] flex flex-col items-center pt-[100px] sm:pt-0 bg-gray-100 z-40"
   > -->
@@ -122,5 +122,5 @@ const submit = async (): Promise<void> => {
       </form>
     </div>
 <!-- </div> -->
-  <!-- </GuestLayout> -->
+  </GuestLayout>
 </template>
