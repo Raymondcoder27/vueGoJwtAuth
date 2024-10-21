@@ -7,7 +7,7 @@ import logo from '@/assets/logo.svg';
     <div class="w-full">
       <div class="flex gap-2">
         <img :src="logo" alt="" class="w-10 my-auto">
-        <label for="" class="font-bold font-mono text-xl my-auto mx-1">VueGoJwtBaseApp</label>
+        <label for="" class="font-bold font-mono text-xl my-auto mx-1">VueGoJwtAuthApp</label>
       </div>
     </div>
   </div>
