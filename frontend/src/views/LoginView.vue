@@ -4,7 +4,7 @@ import CreatePostBox from "@/Layouts/CreatePostBox.vue";
 import Post from "@/components/Post.vue";
 // import PrimaryButton from "@/components/PrimaryButton.vue";
 import GuestLayout from "@/layouts/GuestLayout.vue";
-// import TextInput from "@/components/TextInput.vue";
+import TextInput from "@/components/TextInput.vue";
 import api from "@/config/api";
 import { useAuthStore } from "@/stores/auth";
 
@@ -73,7 +73,7 @@ const submit = async (): Promise<void> => {
     <div class="w-full max-h-[50vh] bg-white text-center justify-center items-center mb-5">
       <form @submit.prevent="submit" class="mb-5 text-black">
         <div>
-          <input
+          <TextInput
             v-model="email"
             id="email"
             type="email"
@@ -86,7 +86,7 @@ const submit = async (): Promise<void> => {
         </div>
 
         <div class="mt-4">
-          <input
+          <TextInput
             v-model="password"
             id="password"
             type="password"
@@ -99,7 +99,7 @@ const submit = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <button type="button" class="w-full text-sm bg-gray-800 text-white p-2 rounded-md">Login</button>
+          <button type="button" class="w-full text-sm bg-black-900 text-white p-2 rounded-md">Login</button>
         </div>
 
         <div class="flex items-center justify-center my-5">

@@ -105,7 +105,7 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <button type="button" class="w-full text-sm bg-green-900 text-white p-2"
+          <button type="button" class="w-full text-sm bg-green-900 text-white p-2 rounded-md"
             @click="register"> 
             Register
           </button>
@@ -115,7 +115,7 @@ const register = async (): Promise<void> => {
           <RouterLink
             v-if="canResetPassword"
             to="/login"
-            class="hover:underline font-bold text-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            class="hover:underline font-bold text-black-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Already Registered?
           </RouterLink>
         </div>
