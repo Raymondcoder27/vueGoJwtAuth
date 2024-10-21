@@ -2,9 +2,9 @@
 import MainNavLayout from "@/Layouts/MainNavLayout.vue";
 import CreatePostBox from "@/Layouts/CreatePostBox.vue";
 import Post from "@/components/Post.vue";
-import PrimaryButton from "@/components/PrimaryButton.vue";
-import GuestLayout from "@/Layouts/GuestLayout.vue";
-import TextInput from "@/components/TextInput.vue";
+// import PrimaryButton from "@/components/PrimaryButton.vue";
+// import GuestLayout from "@/Layouts/GuestLayout.vue";
+// import TextInput from "@/components/TextInput.vue";
 import api from "@/config/api";
 import { useAuthStore } from "@/stores/auth";
 
@@ -96,7 +96,7 @@ const submit = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <PrimaryButton class="w-full text-sm">Login</PrimaryButton>
+          <button type="button" class="w-full text-sm">Login</button>
         </div>
 
         <div class="flex items-center justify-center my-5">
