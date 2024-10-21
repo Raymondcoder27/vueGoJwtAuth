@@ -54,6 +54,6 @@
   @apply w-56 ml-2 flex my-auto text-gray-600 px-2 py-3 hover:text-black-900 cursor-pointer text-sm;
  }
  .menu-active{
-  @apply w-52 ml-3 my-auto flex font-bold bg-gray-600 rounded-md text-white px-1 py-2 cursor-pointer text-sm;
+  @apply w-52 ml-3 my-auto flex font-bold bg-gray-700 rounded-md text-white px-1 py-2 cursor-pointer text-sm;
  }
 </style>
