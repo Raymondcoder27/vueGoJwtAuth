@@ -43,11 +43,11 @@ const appRoutes: RouteRecordRaw[] = [
         component: ()=> import ("@/views/RegisterView.vue"),
       },
       {
-        path: "/settings", 
-        name: "settings",
+        path: "/login", 
+        name: "login",
         meta: {requiresAuth: false},
         component: ()=> import ("@/views/LoginView.vue"),
-      }
+      },
     ]
   }
 ]
