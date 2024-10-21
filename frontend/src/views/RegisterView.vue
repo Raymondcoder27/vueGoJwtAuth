@@ -68,7 +68,7 @@ const register = async (): Promise<void> => {
     >
       <form @submit.prevent="register" class="mb-5 text-black">
         <div>
-          <TextInput
+          <input
             id="username"
             v-model="username"
             type="text"
@@ -81,7 +81,7 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="mt-4">
-          <TextInput
+          <input
             id="email"
             v-model="email"
             type="email"

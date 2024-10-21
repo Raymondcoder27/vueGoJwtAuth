@@ -29,7 +29,7 @@ interface Post {
 }
 
 const authStore = useAuthStore();
-const useGeneral = useGeneralStore();
+// const useGeneral = useGeneralStore();
 const { isCropperModal, isImageDisplay } = storeToRefs(useGeneral);
 const canResetPassword = true;
 
@@ -66,11 +66,11 @@ const submit = async (): Promise<void> => {
   <Head title="Log in" />
   <div v-if="error" class="text-red-500">{{ error }}</div>
 
-  <GuestLayout>
+  <!-- <GuestLayout> -->
     <div class="w-full max-h-[50vh] bg-white text-center justify-center items-center mb-5">
       <form @submit.prevent="submit" class="mb-5 text-black">
         <div>
-          <TextInput
+          <input
             v-model="email"
             id="email"
             type="email"
@@ -83,7 +83,7 @@ const submit = async (): Promise<void> => {
         </div>
 
         <div class="mt-4">
-          <TextInput
+          <input
             v-model="password"
             id="password"
             type="password"
@@ -118,5 +118,5 @@ const submit = async (): Promise<void> => {
         </div>
       </form>
     </div>
-  </GuestLayout>
+  <!-- </GuestLayout> -->
 </template>
