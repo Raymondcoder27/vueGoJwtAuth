@@ -27,8 +27,8 @@ interface Post {
   content: string;
 }
 
-const useGeneral = useGeneralStore();
-const { isCropperModal, isImageDisplay } = storeToRefs(useGeneral);
+// const useGeneral = useGeneralStore();
+// const { isCropperModal, isImageDisplay } = storeToRefs(useGeneral);
 const canResetPassword = true;
 
 // Type the props

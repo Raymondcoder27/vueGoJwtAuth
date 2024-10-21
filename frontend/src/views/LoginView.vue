@@ -30,7 +30,7 @@ interface Post {
 
 const authStore = useAuthStore();
 // const useGeneral = useGeneralStore();
-const { isCropperModal, isImageDisplay } = storeToRefs(useGeneral);
+// const { isCropperModal, isImageDisplay } = storeToRefs(useGeneral);
 const canResetPassword = true;
 
 // Define reactive variables with types
