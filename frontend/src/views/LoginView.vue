@@ -99,7 +99,7 @@ const submit = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <button type="button" class="w-full text-sm">Login</button>
+          <button type="button" class="w-full text-sm bg-gray-800 text-white p-2 rounded-md">Login</button>
         </div>
 
         <div class="flex items-center justify-center my-5">
@@ -115,7 +115,7 @@ const submit = async (): Promise<void> => {
         <div class="flex items-center justify-center pt-6 pb-2">
           <RouterLink
             to="/register"
-            class="px-5 py-3 text-white bg-[#37A621] text-[20px] font-bold rounded-lg text-sm">
+            class="px-5 py-2 text-white bg-[#37A621] text-[20px] font-bold rounded-lg text-sm">
             Create a new account.
           </RouterLink>
         </div>

@@ -65,7 +65,7 @@ const register = async (): Promise<void> => {
       class="w-full max-h-[80vh] bg-white text-center justify-center items-center mb-5"
     >
       <form @submit.prevent="register" class="mb-5 text-black">
-        <div>
+        <!-- <div>
           <input
             id="username"
             v-model="username"
@@ -76,7 +76,7 @@ const register = async (): Promise<void> => {
             autocomplete="username"
             placeholder="Name"
           />
-        </div>
+        </div> -->
 
         <div class="mt-4">
           <input
@@ -92,7 +92,7 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="mt-4">
-          <TextInput
+          <input
             id="password"
             v-model="password"
             type="password"
