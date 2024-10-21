@@ -6,9 +6,11 @@ import (
 	"os"
 	"time"
 
+	"example.com/vuegojwt/initializers"
+	"example.com/vuegojwt/models"
 	"github.com/gin-gonic/gin"
-	"github.com/goJwt/initializers"
-	"github.com/goJwt/models"
+	// "github.com/goJwt/initializers"
+	// "github.com/goJwt/models"
 	"github.com/golang-jwt/jwt/v4"
 )
 
