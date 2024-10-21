@@ -2,7 +2,7 @@
 import Post from "@/components/Post.vue";
 // import PrimaryButton from "@/components/PrimaryButton.vue";
 import GuestLayout from "@/layouts/GuestLayout.vue";
-// import TextInput from "@/components/TextInput.vue";
+import TextInput from "@/components/TextInput.vue";
 import api from "@/config/api";
 
 import Camera from "vue-material-design-icons/Camera.vue";
@@ -79,7 +79,7 @@ const register = async (): Promise<void> => {
         </div> -->
 
         <div class="mt-4">
-          <input
+          <TextInput
             id="email"
             v-model="email"
             type="email"
@@ -92,7 +92,7 @@ const register = async (): Promise<void> => {
         </div>
 
         <div class="mt-4">
-          <input
+          <TextInput
             id="password"
             v-model="password"
             type="password"
