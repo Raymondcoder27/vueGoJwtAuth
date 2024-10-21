@@ -60,6 +60,7 @@ const register = async (): Promise<void> => {
 
 <template>
   <Head title="Register" />
+  <div v-if="error" class="text-red-500">{{ error }}</div>
   <GuestLayout>
     <div
       class="w-full max-h-[100vh] bg-white text-center justify-center items-center mb-5"

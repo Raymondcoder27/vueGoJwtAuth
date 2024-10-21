@@ -99,7 +99,7 @@ const submit = async (): Promise<void> => {
         </div>
 
         <div class="flex items-center justify-center pt-4">
-          <button type="button" class="w-full text-sm bg-black-900 text-white p-2 rounded-md font-semibold">Login</button>
+          <button @click="submit" type="button" class="w-full text-sm bg-black-900 text-white p-2 rounded-md font-semibold">Login</button>
         </div>
 
         <div class="flex items-center justify-center my-5">
