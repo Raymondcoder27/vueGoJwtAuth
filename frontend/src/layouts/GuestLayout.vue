@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import ApplicationLogo from "@/components/ApplicationLogo.vue";
+// import ApplicationLogo from "@/components/ApplicationLogo.vue";
 </script>
 
 <template>

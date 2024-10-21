@@ -34,7 +34,9 @@ const appRoutes: RouteRecordRaw[] = [
         name: "settings",
         meta: {requiresAuth: false},
         component: ()=> import ("@/domain/settings/Settings.vue"),
-      },
+      }
+    ]
+  },
       {
         path: "/register", 
         name: "register",
@@ -47,8 +49,6 @@ const appRoutes: RouteRecordRaw[] = [
         meta: {requiresAuth: false},
         component: ()=> import ("@/views/LoginView.vue"),
       },
-    ]
-  }
 ]
 
 
